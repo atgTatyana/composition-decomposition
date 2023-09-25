@@ -28,7 +28,9 @@ h4 {
 }
 
 .down-block {
-  column-count: 3;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 32% 32% 32%;
 }
 
 .topic {
